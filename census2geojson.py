@@ -7,7 +7,7 @@ from cStringIO import StringIO
 from itertools import izip_longest
 
 ENDPOINT = 'http://www2.census.gov/geo/tiger/TIGER2010'
-JOBS_ENDPOINT = 'http://ec2-54-212-141-93.us-west-2.compute.amazonaws.com'
+JOBS_ENDPOINT = 'https://s3-us-west-2.amazonaws.com/census-lodes'
 
 SHAPE_LOOKUP = {
     'blocks': 'TABBLOCK',
